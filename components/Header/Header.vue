@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between items-center p-4 bg-[#000] text-white">
+  <header class=" fixed top-0 w-full flex justify-between items-center z-50  p-4 bg-[#000] text-white">
     <div class="logo">
       <h2 class="font-bold text-xl">LOGO</h2>
     </div>
