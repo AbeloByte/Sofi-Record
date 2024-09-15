@@ -1,3 +1,7 @@
+<script setup >
+
+</script>
+
 <template>
     <footer class="bg-black text-white py-10 ">
       <div class="lg:w-[86%] md:w-[95%] w-[97%] mx-auto  grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -28,48 +32,43 @@
           </nav>
           <div class="flex space-x-4">
             <NuxtLink to="#">
-              <Icon name="uil:facebook" style="color: white ;width : 24px; height: 24px  ;width : 24px; height: 24px " /></NuxtLink>
+              <Icon name="uil:facebook" style="color: white ;width : 40px; height: 40px  ;width : 40px; height: 40px " /></NuxtLink>
             <NuxtLink to="#">
-              <Icon name="uil:whatsapp" style="color: white ;width : 24px; height: 24px  ;width : 24px; height: 24px " />
+              <Icon name="uil:whatsapp" style="color: white ;width : 40px; height: 40px  ;width : 40px; height: 40px " />
             </NuxtLink>
             <NuxtLink to="#">
-              <Icon name="uil:twitter" style="color: white ;width : 24px; height: 24px  ;width : 24px; height: 24px " />
+              <Icon name="uil:twitter" style="color: white ;width : 40px; height: 40px  ;width : 40px; height: 40px " />
             </NuxtLink>
             <NuxtLink to="#">
-              <Icon name="uil:youtube" style="color:white;width : 24px; height: 24px " />
+              <Icon name="uil:youtube" style="color:white;width : 40px; height: 40px " />
             </NuxtLink>
             <NuxtLink to="#">
-              <Icon name="uil:instagram" style="color: white ;width : 24px; height: 24px  ;width : 24px; height: 24px " />
+              <Icon name="uil:" style="color: white ;width : 40px; height: 40px  ;width : 40px; height: 40px " />
             </NuxtLink>
           </div>
         </div>
   
         <!-- Subscription Section -->
-      
-      </div>
-      <div class="flex flex-col space-y-4 w-[80%]">
-
-          <div>
-            <p class="font-semibold">Subscribe to the Blog Post</p>
-          </div>
+        <div class="flex flex-col space-y-4">
+          <p class="font-semibold">Subscribe to the Blog Post</p>
           <div class="flex ">
             <input
               type="email"
               placeholder="Type your Email here"
-              class="bg-gray-800 text-white py-2 px-4 w-[30%] border border-gray-700 focus:outline-none"
+              class="bg-gray-800 text-white py-2 px-4 w-full border border-gray-700 focus:outline-none"
             />
-            <button class="bg-red-600 text-white px-6 py-2 ">Subscribe</button>
+            <button class="bg-[#FF3600] text-white px-6 py-2 border-full border-zinc-500">Subscribe</button>
           </div>
-
         </div>
+      </div>
   
       <!-- Bottom Section -->
-      <div class="container mx-auto mt-10 border-t border-gray-600 pt-4 flex flex-col md:flex-row justify-between items-center">
+      <div class="container mx-auto mt-10 border-t border-gray-600 pt-4 flex flex-col md:flex-row justify-around items-center">
         <p>© 2024 Relume. All rights reserved.</p>
         <div class="flex space-x-4">
-          <a to="#" class="hover:underline">Privacy Policy</a>
-          <a to="#" class="hover:underline">Terms of Service</a>
-          <a to="#" class="hover:underline">Cookies Settings</a>
+          <a to="/" class="hover:underline">Privacy Policy</a>
+          <a to="/" class="hover:underline">Terms of Service</a>
+          <a to="/" class="hover:underline">Cookies Settings</a>
         </div>
       </div>
     </footer>
