@@ -26,6 +26,10 @@ export default {
       width:{
         '8rem':'25'
 
+      },
+      fontSize: {
+        'subHeading': '3.0625rem',
+        'subsubHeading': '42px'
       }
     },
   },

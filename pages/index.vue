@@ -20,9 +20,9 @@
       <div class="bg-white p-6 rounded-lg shadow-md flex flex-col">
         <img src="../public/photoOne.png" alt="Blog Post" class="w-full h-48 object-cover mb-4 rounded">
         <div class="flex-grow">
-          <h3 class="text-xl font-semibold mb-2 text-gray-800">Blog Title</h3>
+          <h3 class="text-xl font-bold mb-2 text-[#FF3600]">Blog Title</h3>
           <p class="text-gray-600 mb-4">This is a short paragraph about the blog post. It gives a brief overview or a teaser of the content to entice readers to click and read more.</p>
-          <div class="text-gray-400 text-sm">Date | 5 min read</div>
+          <div class="text-[#FF3600]  font-semibold text-sm">Date | 5 min read</div>
         </div>
       </div>
       </NuxtLink>
@@ -34,9 +34,9 @@
 
         <img src="../public/PhotoTwo.png" alt="Blog Post" class="w-full h-48 object-cover mb-4 rounded">
         <div class="flex-grow">
-          <h3 class="text-xl font-semibold mb-2 text-gray-800 ">Blog Title</h3>
+          <h3 class="text-xl font-bold mb-2 text-[#FF3600] ">Blog Title</h3>
           <p class="text-gray-600 mb-4">This is a short paragraph about the blog post. It gives a brief overview or a teaser of the content to entice readers to click and read more.</p>
-          <div class="text-gray-400 text-sm">Date | 5 min read</div>
+          <div class="text-[#FF3600]  font-semibold text-sm">Date | 5 min read</div>
         </div>
       </div>
     </NuxtLink>
@@ -47,9 +47,9 @@
       <div class="bg-white p-6 rounded-lg shadow-md flex flex-col">
         <img src="../public/PhotoTHree.png" alt="Blog Post" class="w-full h-48 object-cover mb-4 rounded">
         <div class="flex-grow">
-          <h3 class="text-xl font-semibold mb-2 text-gray-800 ">Blog Title</h3>
+          <h3 class="text-xl font-bold mb-2 text-[#FF3600] ">Blog Title</h3>
           <p class="text-gray-600 mb-4">This is a short paragraph about the blog post. It gives a brief overview or a teaser of the content to entice readers to click and read more.</p>
-          <div class="text-gray-400 text-sm">Date | 5 min read</div>
+          <div class="text-[#FF3600]  font-semibold text-sm">Date | 5 min read</div>
         </div>
       </div>
     </NuxtLink>
@@ -66,21 +66,29 @@
     </div>
 
   </template>
-  
-  <script>
 
-  
+<script setup>
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
 
 
-  export default {
-    name: 'HomePage',
-    methods: {
-    gotoEventPage() {
-      this.$router.push('/Events');
-    }
-  }
-  }
-  </script>
+const gotoEventPage = () => {
+  router.push('/Events');
+};
+
+
+useHead({
+  title: 'Sofi-Records',
+  meta: [
+    { name: 'description', content: 'Sofi-Records' },
+    { name: 'keywords', content: 'Sofi-Records' },
+  ],
+
+})
+
+</script>
+
   
   <style scoped>
 

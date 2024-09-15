@@ -3,7 +3,7 @@
     <div class="p-4 bg-custom-black lg:px-48">
       <div class="flex justify-center">
         <img
-          src="/public/image.png"
+          src="../../public/MusicProducer.jpg"
           alt="My Image"
           class="m-4 w-full h-auto "
         />
@@ -12,19 +12,19 @@
       
       <div class="text-white lg:py-8 ">
         <!-- Adjusted from px-44 to px-12 lg:px-48 -->
-        <h1 class="text-3xl font-semibold text-primary py-2">Category</h1>
-        <h1 class="text-3xl font-semibold py-1">Author : Sultan Nuri</h1>
-        <h1 class="text-3xl font-semibold py-3 text-primary">Traditional Tone</h1>
-        <h1 class="text-3xl font-semibold">
+        <h1 class="text-3xl font-semibold text-[#FF3600] py-2">Category</h1>
+        <h1 class="text-xl font-semibold py-1">Author : Sultan Nuri</h1>
+        <h1 class="text-2xl font-semibold py-3 text-[#FF3600]">Traditional Tone</h1>
+        <h1 class="text-2xl font-semibold ">
           How Sofi Records is Redefining Ethiopian Music
         </h1>
 
         <div class="container mx-auto m-4">
-          <hr class="border-t-2 border-white my-4 py-1" />
+          <hr class="border-t-2 border-[#FF3600] my-4 py-1" />
         </div>
 
         <div class="flex flex-wrap  text-white text-2xl">
-          <p class="text-2xl">
+          <p class="text-xl">
             Introduction: A New Era for Ethiopian Music Sofi Records has always
             been more than just a music label. We see ourselves as curators of
             culture, innovators in sound, and storytellers of Ethiopian
@@ -36,12 +36,14 @@
           </p>
         </div>
 
-        <h1 class="text-3xl font-semibold py-4 text-white">
+        <h1 class="text-2xl font-semibold py-4 text-white">
           Preserving Tradition While Embracing Innovation
+          <hr class="border-t-2 border-[#FF3600] my-4 py-1" />
+
         </h1>
 
         <div class="text-white">
-          <p class="text-2xl">
+          <p class="text-xl">
             At the heart of Sofi Records lies a deep respect for the rich
             musical traditions of Ethiopia. Our founder, Sofi, has always
             believed that to move forward, we must also look back. This
@@ -56,19 +58,19 @@
           </p>
         </div>
       </div>
-      <div class="flex justify-center py-4 px-4">
+      <div class="flex justify-end py-4 px-4">
         <button
-          class="bg-primary font-semibold text-white px-14 py-3 rounded-full hover:bg-white hover:text-black border border-red-500 text-xl"
+          class="bg-[#FF3600]  font-semibold text-white px-14 py-3 rounded-full hover:bg-white hover:text-black border border-red-500 text-xl"
         >
           Share
         </button>
       </div>
     </div>
 
-    <div class="bg-custom-white px-12">
+    <div class="bg-[#D9D9D9] w-[80%] mx-auto my-4">
       <!-- Matching the blog text's margins -->
       <h1 class="text-4xl font-semibold text-black lg:px-36 py-4">
-        Leave <span class="text-primary"> A Comment</span>
+        Leave <span class="text-[#FF3600]"> A Comment</span>
       </h1>
 
       <form @submit.prevent="validateForm" class="bg-custom-white p-6 mx-20">
@@ -76,7 +78,7 @@
           <div class="mb-4 px-10 w-1/2">
             <input
               v-model="firstName"
-              class="shadow appearance-none border rounded-2xl w-full py-2 px-3 bg-custom-gray text-3xl text-gray-900 leading-tight focus:outline-none focus:shadow-outline"
+              class="shadow appearance-none border rounded w-full py-2 px-3 bg-custom-gray text-xl text-gray-900 leading-tight focus:outline-none focus:shadow-outline"
               id="first-name"
               type="text"
               placeholder="First Name"
@@ -89,7 +91,7 @@
           <div class="mb-4 px-10 w-1/2">
             <input
               v-model="lastName"
-              class="shadow appearance-none border rounded-2xl w-full py-2 px-3 bg-custom-gray text-3xl text-gray-900 leading-tight focus:outline-none focus:shadow-outline"
+              class="shadow appearance-none border rounded w-full py-2 px-3 bg-custom-gray text-xl text-gray-900 leading-tight focus:outline-none focus:shadow-outline"
               id="last-name"
               type="text"
               placeholder="Last Name"
@@ -103,7 +105,7 @@
         <div class="mb-4 px-10">
           <input
             v-model="email"
-            class="rounded-2xl shadow appearance-none border w-full py-2 px-3 bg-custom-gray text-3xl text-gray-900 leading-tight focus:outline-none focus:shadow-outline"
+            class="rounded shadow appearance-none border w-full py-2 px-3 bg-custom-gray text-xl text-gray-900 leading-tight focus:outline-none focus:shadow-outline"
             id="email"
             type="email"
             placeholder="Email"
@@ -116,7 +118,7 @@
         <div class="mb-4 px-10">
           <textarea
             v-model="message"
-            class="shadow appearance-none border rounded-2xl w-full py-2 px-3 text-gray-900 text-3xl bg-custom-gray leading-tight focus:outline-none focus:shadow-outline"
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-900 text-xl bg-custom-gray leading-tight focus:outline-none focus:shadow-outline"
             id="message"
             placeholder="Write your comment here..."
             rows="4"
@@ -128,7 +130,7 @@
 
         <div class="flex items-center justify-between px-10">
           <button
-            class="bg-primary text-white px-14 py-3 rounded-full hover:bg-white hover:text-black border border-red-500 text-xl font-semibold"
+            class="bg-[#FF3600] text-white px-14 py-3 rounded-full hover:bg-white hover:text-black border border-red-500  font-semibold"
             type="submit"
           >
             Post Comment
