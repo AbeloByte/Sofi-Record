@@ -1,7 +1,7 @@
 <template>
  
            <!-- Services Section -->
-      <section id="services" class="services md:mx-9 lg:mx-14 h-[100v]">
+      <section id="services" class="services md:mx-9 lg:mx-14 h-[100vh]">
         <div class="mt-5">
         <h1 class="text-3xl md:text-4xl font-bold text-[#FF3600]">Service</h1>
           <h2 class="text-2xl font-bold ">Explore the World of Music  Production</h2>
