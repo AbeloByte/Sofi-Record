@@ -1,11 +1,13 @@
 <template>
   <section class="flex justify-center items-center h-screen">
     <div class="lg:mx-14">
+    
     <!-- Parent Div with Custom Width and Height -->
     <div
       class="flex flex-col-reverse md:flex-row items-center justify-between bg-[#2A2727] rounded-lg md:p-14 mx-auto  gap-10 shadow-[#000000]
       shadow-md hover:shadow-xl hover:scale-105 hover:z-10 transition-all duration-300  hover:shadow-black p-6
       ">
+      
 
       <!-- About Me Content -->
       <div class="md:w-1/2 mt-6 md:mt-0">
