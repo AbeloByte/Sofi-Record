@@ -28,18 +28,11 @@
       </div>
     </div>
 
-
-
-
-
-
-
-
     <!-- Foundation information -->
     <div class=" text-gray-200  lg:p-16  p-8">
     <div class="max-w-7xl mx-auto pt-10 bg-[#2A2727]">
         <!-- Main Container -->
-        <div class="  shadow-2xl shadow-black p-8 ">
+        <div class="  shadow-md shadow-black p-8 ">
         <div class="lg:flex  lg:space-x-8 ">
           <!-- Image Section -->
           <div class="lg:w-/2 mb-8 lg:mb-3">
@@ -87,7 +80,7 @@
   <!-- Journey-->
 
   <div class=" text-gray-200 p-8 lg:p-16">
-    <div class="max-w-7xl mx-auto  shadow-2xl shadow-black">
+    <div class="max-w-7xl mx-auto  shadow-md shadow-black">
       <!-- Main Container -->
       <div class="lg:flex lg:space-x-8 p-8">
         
@@ -173,7 +166,7 @@
 <!-- Working with Sofi   -->
  
 <div class="bg-[#2A2727] text-gray-200 p-8 lg:p-16">
-    <div class="max-w-7xl mx-auto shadow-2xl shadow-black">
+    <div class="max-w-7xl mx-auto shadow-md shadow-black">
       <!-- Main Container -->
       <div class="lg:flex lg:space-x-8 p-8">
         
@@ -210,7 +203,7 @@
 <!-- Passion and Innovation -->
 
 <div class=" text-gray-200 p-8 lg:p-16">
-    <div class="max-w-7xl mx-auto bg-[#2A2727] shadow-2xl shadow-black ">
+    <div class="max-w-7xl mx-auto bg-[#2A2727] shadow-md shadow-black ">
       <!-- Main Container -->
       <div class="lg:flex lg:space-x-8 p-8">
         

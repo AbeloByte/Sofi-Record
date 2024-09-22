@@ -34,7 +34,7 @@
   </div>
 </div>
 <!-- Voice Recording -->
-<div class="lg:flex min-h-full w-full p-2 shadow-black shadow-xl  ">
+<div class="lg:flex min-h-full w-full p-2 shadow-black shadow-md  ">
 
 
 
@@ -61,7 +61,7 @@
 
 </div>
 <!-- Sound Desing  -->
-<div class="lg:flex min-h-full w-full  p-2 shadow-black shadow-xl ">
+<div class="lg:flex min-h-full w-full  p-2 shadow-black shadow-md ">
 
 
   <div class="lg:w-1/2   ">
@@ -89,7 +89,7 @@
 
 </div>
 <!-- Mixing and Mastering -->
-<div class="lg:flex min-h-full w-full p-2 shadow-black shadow-xl  ">
+<div class="lg:flex min-h-full w-full p-2 shadow-black shadow-md  ">
   <div class=" bg-[#2A2727] lg:w-1/2 w-full p-6 space-y-4">
   <h1 class="text-subsubHeading font-bold text-[#FF3600]">Voice Recording</h1>
   <p class="text-[20px] text-gray-400">Professional music production services including beat making, track arrangement, and sound design for various genres.</p>
@@ -113,7 +113,7 @@
 
 </div>
 <!-- Service 4 -->
-<div class="lg:flex min-h-full w-full p-2  shadow-black shadow-xl ">
+<div class="lg:flex min-h-full w-full p-2  shadow-black shadow-md ">
 
 
   <div class="lg:w-1/2   ">
@@ -140,8 +140,8 @@
 
 
                         <!-- How We Works -->
-<div class="container">
 <h1 class="text-center text-4xl font-bold py-10" >How <span class="text-[#FF3600]">Does</span> it Work </h1>
+<div class="container">
   <div class="flex align-center justify-start lg:flex lg:justify-around">
     <!-- First Card -->
   <div>
@@ -173,7 +173,7 @@
   </div>
   <!-- Third Card -->
   <div >
-        <div class="max-w-sm rounded overflow-hidden shadow-black  shadow-lg h-96">
+        <div class="max-w-sm rounded overflow-hidden shadow-black  shadow-md h-96">
         
         <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">02<br/><span class="text-[#FF3600]">Result</span></div>
@@ -186,8 +186,6 @@
     </div>
   </div>
   </div>
-
-
 </div>
 
 

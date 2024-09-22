@@ -21,8 +21,9 @@
       </div>
   
         <!-- Social Links and Navigation -->
-        <div class="flex flex-col space-y-4 items-start">
-          <nav class="flex space-x-4">
+        
+        <div class="flex flex-col space-y-4 ">
+          <nav class="flex space-x-4 mb-10">
             <a to="#" class="hover:underline">Home</a>
             <a to="#" class="hover:underline">About</a>
             <a to="#" class="hover:underline">Services</a>
@@ -30,7 +31,7 @@
             <a to="#" class="hover:underline">Blog</a>
             <a to="#" class="hover:underline">Portfolio</a>
           </nav>
-          <div class="flex space-x-4">
+          <div class="flex space-x-4 ">
             <NuxtLink to="#">
               <Icon name="uil:facebook" style="color: white ;width : 40px; height: 40px  ;width : 40px; height: 40px " /></NuxtLink>
             <NuxtLink to="#">
@@ -49,8 +50,8 @@
         </div>
   
         <!-- Subscription Section -->
-        <div class="flex flex-col space-y-4">
-          <p class="font-semibold">Subscribe to the Blog Post</p>
+        <div class="flex flex-col space-y-4 ">
+          <p class="font-semibold mb-10">Subscribe to the Blog Post</p>
           <div class="flex ">
             <input
               type="email"
