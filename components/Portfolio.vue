@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#14141E]">
+  <div class="">
     <div class="lg:w-[86%] md:w-[95%] w-[97%] mx-auto ">
         <section class="lg:mx-14 mt-4">
         <h1 class=" subHeading text-3xl  font-semibold  text-center p-3">My Projects</h1>
@@ -8,10 +8,11 @@
           <div class='relative rounded-sm overflow-hidden  group md:row-span-1  '>
             <NuxtImg 
               src='../public/Porfolio-Items/porfolioItem-1.png'
-              width="300"
-              height="300"
+             
               alt='category 1'
               class='w-full'
+              width="300"
+              height="300"
             />
             <NuxtLink
               to='#'
@@ -141,6 +142,6 @@
 
 </script>
 
-<style lang="scss" scoped>
+<style  scoped>
 
 </style>
