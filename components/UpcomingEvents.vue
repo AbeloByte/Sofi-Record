@@ -9,7 +9,7 @@
               <img src="../public/Event1.png"  alt="Event" class="w-full h-40 object-cover mb-4 rounded">
               <h3 class="text-xl font-semibold mb-2 text-[#FF3600]">Event Title</h3>
               <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
-              <NuxtLink to="/Events/3">
+              <NuxtLink to="/Events">
                     <button class="py-1 px-4 mt-4 md:py-3 md:px-6 text-base md:text-lg lg:text-xl font-bold bg-[#FF3600] rounded-lg text-white border-none cursor-pointer transition duration-300 ease-in-out hover:bg-red-700">See Details</button>
               </NuxtLink>
             </div>
@@ -19,7 +19,7 @@
               <h3 class="text-xl font-semibold mb-2 text-[#FF3600]">Event Title</h3>
               <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
               
-              <NuxtLink to="/Events/5">
+              <NuxtLink to="/Events">
                     <button class="py-1 px-4 mt-4 md:py-3 md:px-6 text-base md:text-lg lg:text-xl font-bold bg-[#FF3600] rounded-lg text-white border-none cursor-pointer transition duration-300 ease-in-out hover:bg-red-700">See Details</button>
               </NuxtLink>
             </div>
