@@ -23,7 +23,7 @@
       </div>
     <!-- About Hero Section Image-->
         <div class="lg:w-full">
-            <img src="../../public/Aboutme.png" alt="Sultan Nuri in Studio" class="rounded-lg shadow-lg w-full" />
+            <img src="/Aboutme.png" alt="Sultan Nuri in Studio" class="rounded-lg shadow-lg w-full" />
           </div>
       </div>
     </div>
@@ -36,7 +36,7 @@
         <div class="lg:flex  lg:space-x-8 ">
           <!-- Image Section -->
           <div class="lg:w-/2 mb-8 lg:mb-3">
-            <img src="../../public/Foundation.png" alt="Studio" class="shadow-lg w-full object-cover skew-y-0" />
+            <img src="..//Foundation.png" alt="Studio" class="shadow-lg w-full object-cover skew-y-0" />
           </div>
           
           <!-- Text Section -->
@@ -107,7 +107,7 @@
         </div>
         <!-- Image Section -->
         <div class="lg:w-1/2 mb-8 lg:mb-0">
-          <img src="../../public/personal.jpg" alt="Studio" class="rounded-lg shadow-lg w-full object-cover" />
+          <img src="..//personal.jpg" alt="Studio" class="rounded-lg shadow-lg w-full object-cover" />
         </div>
       </div>
     </div>

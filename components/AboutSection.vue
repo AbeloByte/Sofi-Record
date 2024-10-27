@@ -36,9 +36,8 @@
 </template>
 
 <script setup>
-// Any necessary data or props can be handled here.
+
 </script>
 
 <style scoped>
-/* Add any scoped styles here, if needed. */
 </style>

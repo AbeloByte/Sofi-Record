@@ -40,6 +40,9 @@
       </button>
     </div>
   </div>
+
+
+  <!-- Comment Form -->
   <div class="bg-[#D9D9D9] w-full max-w-4xl mx-auto my-4 p-4">
     <h1 class="text-4xl font-semibold text-black lg:px-36 py-4">
       Leave <span class="text-[#FF3600]"> A Comment</span>

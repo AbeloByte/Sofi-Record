@@ -22,7 +22,7 @@
             >
               <div class="bg-white p-6 rounded-lg shadow-md flex flex-col">
                 <img
-                  src="../public/photoOne.png"
+                  src="/photoOne.png"
                   alt="Blog Post"
                   class="w-full h-48 object-cover mb-4 rounded"
                 />
@@ -51,7 +51,7 @@
             >
               <div class="bg-white p-6 rounded-lg shadow-md flex flex-col">
                 <img
-                  src="../public/PhotoTwo.png"
+                  src="/PhotoTwo.png"
                   alt="Blog Post"
                   class="w-full h-48 object-cover mb-4 rounded"
                 />
@@ -80,7 +80,7 @@
             >
               <div class="bg-white p-6 rounded-lg shadow-md flex flex-col">
                 <img
-                  src="../public/PhotoTHree.png"
+                  src="/PhotoTHree.png"
                   alt="Blog Post"
                   class="w-full h-48 object-cover mb-4 rounded"
                 />
