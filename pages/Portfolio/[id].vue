@@ -3,7 +3,7 @@
     <div class="container mx-auto px-6 md:w-[80%]">
       <!-- Project Title and Tagline -->
       <div class="text-center mb-12">
-        <h1 class="text-5xl font-bold text-gray-800 mb-4">{{ project.title }}</h1>
+        <h1 class="text-5xl font-bold text-white mb-4">{{ project.title }}</h1>
         <p class="text-xl italic text-gray-500">{{ project.tagline }}</p>
       </div>
 
@@ -32,8 +32,8 @@
       <!-- Tools and Technologies -->
       <div class="bg-white rounded-lg shadow-md py-12 px-8 mb-8 transition-transform hover:scale-105">
         <h2 class="text-3xl font-bold mb-6 text-center text-gray-800">Tools and Technologies</h2>
-        <ul class="list-disc pl-6 space-y-2 text-lg text-center text-gray-700">
-          <li v-for="tool in project.tools" :key="tool">{{ tool }}</li>
+        <ul class="list-none pl-6 space-y-2    text-lg text-center text-gray-700">
+          <li v-for="tool in project.tools" :key="tool" >{{ tool }}</li>
         </ul>
       </div>
 
@@ -83,7 +83,7 @@ const projectId = route.params.id;
 const projects = [
   {
     id: 1,
-    title: 'Project 1: Ethiopian Pop Fusion',
+    title: 'Ethiopian Pop Fusion',
     tagline: 'Blending traditional Ethiopian sounds with modern pop',
     videoId: 'yourYouTubeVideoID1',
     description: 'This project showcases my effort to merge Ethiopian traditional music with modern pop sounds. By carefully balancing these elements, I created something new and fresh while still honoring the past.',
@@ -96,7 +96,7 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Project 2: Traditional Roots Revived',
+    title: 'Traditional Roots Revived',
     tagline: 'Reviving the roots of Ethiopian folk music for a new generation',
     videoId: 'yourYouTubeVideoID2',
     description: 'This project is a revival of Ethiopian folk music, reimagined for a younger audience. I worked with several traditional musicians to preserve the authenticity of the music while adding a modern touch.',
@@ -109,7 +109,7 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Project 3: Urban Soundscapes',
+    title: 'Urban Soundscapes',
     tagline: 'An exploration of Ethiopia’s urban musical scene',
     videoId: 'yourYouTubeVideoID3',
     description: 'This project is an exploration of the urban sounds of Ethiopia, combining influences from the streets of Addis Ababa with electronic music.',

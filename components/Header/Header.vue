@@ -1,13 +1,17 @@
 <template>
   <header
-    class="fixed top-0 w-full flex justify-between items-center z-50 p-2 bg-[#000] text-white"
+    class="fixed top-0 w-full  flex justify-between items-center z-50 p-2 md:p-4 bg-[#000] text-white"
   >
-    <div class="logo">
+    <div class="logo ">
       <NuxtLink to="/"><h2 class="font-bold text-xl">LOGO</h2></NuxtLink>
     </div>
 
     <!-- Hamburger menu button, visible on mobile -->
-    <button class="block md:hidden focus:outline-none" @click="toggleMenu">
+    <button
+      class="block md:hidden focus:outline-none"
+      @click="toggleMenu"
+      :aria-expanded="isOpen"
+    >
       <svg
         class="w-6 h-6 transition-transform duration-300 transform"
         :class="isOpen ? 'rotate-45' : ''"
@@ -34,10 +38,11 @@
     </button>
 
     <!-- Navigation links -->
-<nav
-  :class="`flex-col md:flex-row ${isOpen ? 'flex' : 'show'} md:flex space-y-4 md:space-y-0 space-x-0 md:space-x-10 text-xl justify-center items-center absolute md:static top-16 md:top-auto left-0 right-0 md:left-auto md:bg-transparent p-4 md:p-0`"
->
-
+    <nav
+      :class="`flex-col md:flex-row bg-[#262626] ${
+        isOpen ? 'flex' : 'show md:flex top-[-400px] md:top-0'
+      } space-y-4 md:space-y-0 space-x-0 md:space-x-10 text-xl justify-center items-center absolute md:static  top-10 md:top-auto left-0 right-0 md:left-auto md:bg-transparent p-4 md:p-0`"
+    >
       <NuxtLink to="/" class="]"><House color="red" /></NuxtLink>
       <NuxtLink to="/about" class=""><UserRound color="#FF3600" /></NuxtLink>
       <NuxtLink to="/Services" class="">
@@ -103,7 +108,4 @@ nav a:hover {
   /* box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff; */
   filter: drop-shadow(0 0 20px #fff);
 }
-
-
-
 </style>
