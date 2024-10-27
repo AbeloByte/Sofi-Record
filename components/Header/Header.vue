@@ -35,7 +35,7 @@
 
     <!-- Navigation links -->
 <nav
-  :class="`flex-col md:flex-row ${isOpen ? 'flex' : 'hidden'} md:flex space-y-4 md:space-y-0 space-x-0 md:space-x-10 text-xl justify-center items-center absolute md:static top-16 md:top-auto left-0 right-0 md:left-auto md:bg-transparent p-4 md:p-0`"
+  :class="`flex-col md:flex-row ${isOpen ? 'flex' : 'show'} md:flex space-y-4 md:space-y-0 space-x-0 md:space-x-10 text-xl justify-center items-center absolute md:static top-16 md:top-auto left-0 right-0 md:left-auto md:bg-transparent p-4 md:p-0`"
 >
 
       <NuxtLink to="/" class="]"><House color="red" /></NuxtLink>
