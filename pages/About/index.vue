@@ -135,7 +135,7 @@
           <!-- Image Section -->
           <div class="lg:w-1/2 mb-8 lg:mb-0">
             <img
-              src="..//personal.jpg"
+              src="/personal.jpg"
               alt="Studio"
               class="rounded-lg shadow-lg w-full object-cover"
             />
