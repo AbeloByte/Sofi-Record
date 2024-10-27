@@ -26,7 +26,7 @@
     </div>
     <div class="hidden lg:block">
       <img
-        src="../public/mic down.png"
+        src="/mic down.png"
         alt="Mic Image"
         class="fixed sm:top-[-70px] sm:right-[-5.0rem] z-20"
       />

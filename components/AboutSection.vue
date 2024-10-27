@@ -26,7 +26,7 @@
 
       <!-- Photo -->
       <div class="md:w-1/2 flex justify-center">
-        <img src="../public/personal.jpg" alt="Profile Photo" class="w-full h-full rounded object-cover shadow-lg">
+        <img src="/personal.jpg" alt="Profile Photo" class="w-full h-full rounded object-cover shadow-lg">
       </div>
       
     </div>

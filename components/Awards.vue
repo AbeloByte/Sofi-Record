@@ -8,37 +8,37 @@
         <div class="carousel flex gap-4 animate-slide">
           <!-- Award Images -->
           <div class="flex-shrink-0 w-full md:w-1/4 lg:w-1/6 h-40 mx-2 flex items-center justify-center">
-            <img src="../public/AdwaAward.png" alt="Award 1" class="object-contain w-full h-full rounded">
+            <img src="/AdwaAward.png" alt="Award 1" class="object-contain w-full h-full rounded">
             <p class="text-center text-white mt-2">Gumma Award1</p>
           </div>
           <div class="flex-shrink-0 w-full md:w-1/4 lg:w-1/6 h-40 mx-2 flex items-center justify-center">
-            <img src="../public/GummaAward.png" alt="Award 2" class="object-contain w-full h-full rounded">
+            <img src="/GummaAward.png" alt="Award 2" class="object-contain w-full h-full rounded">
             <p class="text-center text-white mt-2">Gumma Award2</p>
           </div>
           <div class="flex-shrink-0 w-full md:w-1/4 lg:w-1/6 h-40 mx-2 flex items-center justify-center">
-            <img src="../public/AfrimaAward.png" alt="Award 3" class="object-contain w-full h-full rounded">
+            <img src="/AfrimaAward.png" alt="Award 3" class="object-contain w-full h-full rounded">
             <p class="text-center text-white mt-2">Gumma Award3</p>
           </div>
           <div class="flex-shrink-0 w-full md:w-1/4 lg:w-1/6 h-40 mx-2 flex items-center justify-center">
-            <img src="../public/GummaAward.png" alt="Award 4" class="object-contain w-full h-full rounded">
+            <img src="/GummaAward.png" alt="Award 4" class="object-contain w-full h-full rounded">
             <p class="text-center text-white mt-2">Gumma Award4</p>
           </div>
 
           <!-- Duplicate Images for Seamless Loop -->
           <div class="flex-shrink-0 w-full md:w-1/4 lg:w-1/6 h-40 mx-2 flex items-center justify-center">
-            <img src="../public/AdwaAward.png" alt="Award 1" class="object-contain w-full h-full rounded">
+            <img src="/AdwaAward.png" alt="Award 1" class="object-contain w-full h-full rounded">
             <p class="text-center text-white mt-2">Gumma Award1</p>
           </div>
           <div class="flex-shrink-0 w-full md:w-1/4 lg:w-1/6 h-40 mx-2 flex items-center justify-center">
-            <img src="../public/AfrimaAward.png" alt="Award 2" class="object-contain w-full h-full rounded">
+            <img src="/AfrimaAward.png" alt="Award 2" class="object-contain w-full h-full rounded">
             <p class="text-center text-white mt-2">Gumma Award2</p>
           </div>
           <div class="flex-shrink-0 w-full md:w-1/4 lg:w-1/6 h-40 mx-2 flex items-center justify-center">
-            <img src="../public/GummaAward.png" alt="Award 3" class="object-contain w-full h-full rounded">
+            <img src="/GummaAward.png" alt="Award 3" class="object-contain w-full h-full rounded">
             <p class="text-center text-white mt-2">Gumma Award3</p>
           </div>
           <div class="flex-shrink-0 w-full md:w-1/4 lg:w-1/6 h-40 mx-2 flex items-center justify-center">
-            <img src="../public/AdwaAward.png" alt="Award 4" class="object-contain w-full h-full rounded">
+            <img src="/AdwaAward.png" alt="Award 4" class="object-contain w-full h-full rounded">
             <p class="text-center text-white mt-2">Gumma Award4</p>
           </div>
         </div>

@@ -6,7 +6,7 @@
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Event Card 1-->
             <div class="bg-white p-4 rounded-lg shadow-md">
-              <img src="../public/Event1.png"  alt="Event" class="w-full h-40 object-cover mb-4 rounded">
+              <img src="/Event1.png"  alt="Event" class="w-full h-40 object-cover mb-4 rounded">
               <h3 class="text-xl font-semibold mb-2 text-[#FF3600]">Event Title</h3>
               <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
               <NuxtLink to="/Events">
@@ -15,7 +15,7 @@
             </div>
             <!-- Event Card 2-->
             <div class="bg-white p-4 rounded-lg shadow-md">
-              <img  src="../public/Event2.png" alt="Event" class="w-full h-40 object-cover mb-4 rounded">
+              <img  src="/Event2.png" alt="Event" class="w-full h-40 object-cover mb-4 rounded">
               <h3 class="text-xl font-semibold mb-2 text-[#FF3600]">Event Title</h3>
               <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
               
@@ -25,7 +25,7 @@
             </div>
             <!-- Event Card 3-->
             <div class="bg-white p-4 rounded-lg shadow-md">
-              <img src="../public/Event3.png" alt="Event" class="w-full h-40 object-cover mb-4 rounded">
+              <img src="/Event3.png" alt="Event" class="w-full h-40 object-cover mb-4 rounded">
               <h3 class="text-xl font-semibold mb-2 text-[#FF3600]">Event Title</h3>
               <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
               <NuxtLink to="">

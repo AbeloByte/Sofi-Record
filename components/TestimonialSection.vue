@@ -19,7 +19,7 @@
         <swiper-slide>
           <div class="testimonial-card">
             <img
-              src="../public/AbrhamWolde.jpeg"
+              src="/AbrhamWolde.jpeg"
               alt="Testimonial 1"
               class="testimonial-img"
             />
@@ -35,7 +35,7 @@
         <swiper-slide>
           <div class="testimonial-card">
             <img
-              src="../public/Person1.jpeg"
+              src="/Person1.jpeg"
               alt="Testimonial 2"
               class="testimonial-img"
             />
@@ -51,7 +51,7 @@
         <swiper-slide>
           <div class="testimonial-card">
             <img
-              src="../public/Personal2.jpg"
+              src="/Personal2.jpg"
               alt="Testimonial 3"
               class="testimonial-img"
             />

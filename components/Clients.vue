@@ -12,30 +12,30 @@
           <div class="carousel flex gap-60 animate-slide">
             <!-- Carousel Images -->
             <div class="flex-shrink-0 w-full md:w-64 h-40 mx-2">
-              <img src="../public/HopeLogo.png" alt="Image 1" class="object-cover w-full h-full rounded">
+              <img src="/HopeLogo.png" alt="Image 1" class="object-cover w-full h-full rounded">
             </div>
             <div class="flex-shrink-0 w-full md:w-64 h-40 mx-2">
-              <img src="../public/Balageru.png" alt="Image 2" class="object-cover w-full h-full rounded">
+              <img src="/Balageru.png" alt="Image 2" class="object-cover w-full h-full rounded">
             </div>
             <div class="flex-shrink-0 w-full md:w-64 h-40 mx-2">
-              <img src="../public/FanaTv.png" alt="Image 3" class="object-cover w-full h-full rounded">
+              <img src="/FanaTv.png" alt="Image 3" class="object-cover w-full h-full rounded">
             </div>
             <div class="flex-shrink-0 w-full md:w-64 h-40 mx-2">
-              <img src="../public/Sewasew.png" alt="Image 4" class="object-cover w-full h-full rounded">
+              <img src="/Sewasew.png" alt="Image 4" class="object-cover w-full h-full rounded">
             </div>
   
             <!-- Duplicate Images for Seamless Loop -->
             <div class="flex-shrink-0 w-full md:w-64 h-40 mx-2">
-              <img src="../public/HopeLogo.png" alt="Image 1" class="object-cover w-full h-full rounded">
+              <img src="/HopeLogo.png" alt="Image 1" class="object-cover w-full h-full rounded">
             </div>
             <div class="flex-shrink-0 w-full md:w-64 h-40 mx-2">
-              <img src="../public/Sewasew.png" alt="Image 2" class="object-cover w-full h-full rounded">
+              <img src="/Sewasew.png" alt="Image 2" class="object-cover w-full h-full rounded">
             </div>
             <div class="flex-shrink-0 w-full md:w-64 h-40 mx-2">
-              <img src="../public/" alt="Image 3" class="object-cover w-full h-full rounded">
+              <img src="/" alt="Image 3" class="object-cover w-full h-full rounded">
             </div>
             <div class="flex-shrink-0 w-full md:w-64 h-40 mx-2">
-              <img src="../public/mic.png" alt="Image 4" class="object-cover w-full h-full rounded">
+              <img src="/mic.png" alt="Image 4" class="object-cover w-full h-full rounded">
             </div>
           </div>
         </div>

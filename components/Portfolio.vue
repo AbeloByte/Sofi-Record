@@ -7,7 +7,7 @@
         <div class='md:grid  mx-auto md:grid-cols-3 md:grid-row-3 gap-3 w-full width-[80%] '>
           <div class='relative rounded-sm overflow-hidden  group md:row-span-1  '>
             <NuxtImg 
-              src='../public/Porfolio-Items/porfolioItem-1.png'
+              src='/Porfolio-Items/porfolioItem-1.png'
              
               alt='category 1'
               class='w-full'
@@ -40,7 +40,7 @@
           <div class='relative rounded-sm overflow-hidden group  row-span-1   '>
             <NuxtImg
     
-              src='../public/Porfolio-Items/porfolioItem-3.png'
+              src='/Porfolio-Items/porfolioItem-3.png'
                width="300"
               height="300"
               alt='category 1'
@@ -55,7 +55,7 @@
           </div>
           <div class='relative rounded-sm overflow-hidden group  row-span-2'>
             <NuxtImg
-              src='../public/Porfolio-Items/porfolioItem-4.png'
+              src='/Porfolio-Items/porfolioItem-4.png'
                width="300"
               height="300"
               alt='category 1'
@@ -71,7 +71,7 @@
           <div class='relative rounded-sm overflow-hidden group  '>
             <NuxtImg
           
-              src='../public/Porfolio-Items/porfolioItem-5.png'
+              src='/Porfolio-Items/porfolioItem-5.png'
                width="300"
               height="300"
               alt='category 1'
@@ -87,7 +87,7 @@
           <div class='relative rounded-sm overflow-hidden group  row-span-1'>
             <NuxtImg
              
-              src='../public/Porfolio-Items/porfolioItem-9.png'
+              src='/Porfolio-Items/porfolioItem-9.png'
               width="300"
               height="300"
               alt='category 1'
@@ -103,7 +103,7 @@
           <div class='relative rounded-sm overflow-hidden group  row-span-1'>
             <NuxtImg
              
-              src='../public/Porfolio-Items/porfolioItem-9.png'
+              src='/Porfolio-Items/porfolioItem-9.png'
               width="300"
               height="300"
               alt='category 1'
@@ -119,7 +119,7 @@
           <div class='relative rounded-sm overflow-hidden group  '>
             <NuxtImg
           
-              src='../public/Porfolio-Items/porfolioItem-5.png'
+              src='/Porfolio-Items/porfolioItem-5.png'
                width="300"
               height="300"
               alt='category 1'
